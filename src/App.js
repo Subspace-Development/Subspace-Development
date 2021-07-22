@@ -25,7 +25,7 @@ function App() {
             </ul>
           </Container>
           <Container title="Education">
-            <EducationItem degree="BS Computer Science" start="2016" end="2022" school="Southeast Missouri State University" />
+            <EducationItem degree="BS Computer Science (in-progress)" start="2016" end="2022" school="Southeast Missouri State University" />
           </Container>
           <Container title="Interests">
             <ul className="list-unstyled spread">
