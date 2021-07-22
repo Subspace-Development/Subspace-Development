@@ -210,3 +210,56 @@ p {
   font-weight: 500;
   margin-bottom: 0px;
 }
+
+
+@media (max-width: 767.98px) {
+
+  body {
+    margin: 0px;
+  }
+
+  .wrapper {
+    margin: 0px;
+  }
+
+  aside.sidebar {
+    position: static;
+    width: inherit;
+  }
+  main.content {
+    padding: 30px;
+  }
+
+  .experience-item-time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .experience-item-top {
+    margin-bottom: 0;
+  }
+
+  .skill {
+    display: block;
+    flex-direction: column;
+  }
+
+  progress {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  strong.skill-name {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  strong.skill-name {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+}
