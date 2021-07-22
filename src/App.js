@@ -8,6 +8,7 @@ import Skill from './components/Skill'
 import Profile from "./components/Profile";
 import Container from './components/Container'
 import EducationItem from "./components/EducationItem";
+import preval from 'preval.macro'
 
 function App() {
   return (
@@ -83,7 +84,10 @@ function App() {
           </ResumeSection>
         </main>
       </div>
-      <footer className="footer">Written in React.js</footer>
+      <footer className="footer">
+        <p>Written with React.JS</p>
+        <p>Last Updated: {preval`module.exports = new Date().toLocaleString();`}</p>
+      </footer>
     </div>
   );
 }
