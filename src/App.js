@@ -15,7 +15,7 @@ function App() {
     <div>
       <div className="wrapper mt-lg-5">
         <Sidebar>
-          <Profile name="Jordan Renaud" tagline="Sofware Engineer" />
+          <Profile name="Jordan Renaud" tagline="Software Engineer" />
           <Container>
             <ul className="list-unstyled spread">
               <li>jtrenaud1s@gmail.com</li>
@@ -26,7 +26,7 @@ function App() {
                   LinkedIn
                 </a>
               </li>
-              <li>github.com/jtrenaud1s</li>
+              <li><a href="https://github.com/jtrenaud1s">github.com/jtrenaud1s</a></li>
             </ul>
           </Container>
           <Container title="Education">
