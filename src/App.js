@@ -20,13 +20,19 @@ function App() {
             <ul className="list-unstyled spread">
               <li>jtrenaud1s@gmail.com</li>
               <li>(636) 692-3698</li>
-              <li>subspacedev.io</li>
+              <li>
+                <a href="https://subspacedev.io">subspacedev.io</a>
+              </li>
               <li>
                 <a href="https://www.linkedin.com/in/jordan-renaud-75a6751a4/">
                   LinkedIn
                 </a>
               </li>
-              <li><a href="https://github.com/jtrenaud1s">github.com/jtrenaud1s</a></li>
+              <li>
+                <a href="https://github.com/jtrenaud1s">
+                  github.com/jtrenaud1s
+                </a>
+              </li>
             </ul>
           </Container>
           <Container title="Education">
@@ -89,6 +95,18 @@ function App() {
                 migrations, automated content migration.
               </p>
             </ExperienceItem>
+            <ExperienceItem
+              position="Software Engineer/Researcher"
+              start="Summer 2021"
+              end="September 2021"
+              location="SEMO Dr. Mitra Startup"
+            >
+              <p>
+                Responsibilities include writing a proof of concept contract
+                tracing system using a custom written decentralized blockchain
+                for data storage and privacy, and team task management.
+              </p>
+            </ExperienceItem>
           </ResumeSection>
           <ResumeSection title="Projects">
             <ProjectList>
@@ -107,19 +125,27 @@ function App() {
                 management, member ratings, and new member vote presentations
                 with a PowerPoint-esque visual.
               </Project>
+              <Project name="Contact Tracer">
+                A research/proof of concept project that would use bluetooth LE
+                to detect users within proximity, and transact that proximity as
+                a contact pair into a blockchain. Blockchain data is used to
+                generate contact tracing trees to provide a visual trace.
+              </Project>
               <Project name="Resume">
-                This resume was written using react.js.
+                This resume was written using react.js. (Stateless Hook
+                Components)
               </Project>
             </ProjectList>
           </ResumeSection>
           <ResumeSection title="Skills">
             <Skill name="Java" confidence="100" />
-            <Skill name="HTML5 + CSS3" confidence="95" />
             <Skill name="PHP + MySQL" confidence="80" />
             <Skill name="Javascript + jQuery" confidence="78" />
             <Skill name="Python" confidence="75" />
             <Skill name="git + GitHub" confidence="75" />
-            <Skill name="React.js" confidence="25" />
+            <Skill name="React.js" confidence="65" />
+            <Skill name="Node.js" confidence="65" />
+            <Skill name="Express" confidence="65" />
           </ResumeSection>
         </main>
       </div>
