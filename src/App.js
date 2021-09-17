@@ -46,6 +46,8 @@ function App() {
           <Container title="Interests">
             <ul className="list-unstyled spread">
               <li>Programming</li>
+              <li>Full Stack TypeScript</li>
+              <li>DevOps</li>
               <li>Percussion</li>
               <li>Guitar</li>
               <li>Space</li>
