@@ -133,7 +133,7 @@ function App() {
               </Project>
               <Project name="Resume">
                 This resume was written using react.js. (Stateless Hook
-                Components)
+                Components). Uses GitHub Actions and Netlify for continuous deployment.
               </Project>
             </ProjectList>
           </ResumeSection>
