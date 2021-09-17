@@ -38,8 +38,8 @@ function App() {
           <Container title="Education">
             <EducationItem
               degree="BS Computer Science (in-progress)"
-              start="2016"
-              end="2022"
+              start="Fall 2016"
+              end="Fall 2021"
               school="Southeast Missouri State University"
             />
           </Container>
@@ -133,7 +133,7 @@ function App() {
               </Project>
               <Project name="Resume">
                 This resume was written using react.js. (Stateless Hook
-                Components)
+                Components). Uses GitHub Actions and Netlify for continuous deployment.
               </Project>
             </ProjectList>
           </ResumeSection>
